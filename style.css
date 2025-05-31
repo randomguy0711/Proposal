@@ -1,0 +1,142 @@
+*{
+    font-family: Tangerine;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    background-color: #FFC0CB;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#heart{
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.outside-container{
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+#yesbutton{
+    margin-left: 300px;
+    width: 180px;
+    background-color: #77dd77;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#nobutton1{
+    margin-left: 20px;
+    background-color: #ff6b6b;
+    border: none; 
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+#nobutton2{
+    align-self: flex-start;
+    background-color: #ff6b6b;
+    border: none; 
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#nobutton3{
+    align-self: flex-start;
+    background-color: #ff6b6b;
+    border: none; 
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#nobutton4{
+    align-self: flex-start;
+    background-color: #ff6b6b;
+    border: none; 
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#nobutton5{
+    align-self: flex-start;
+    background-color: #ff6b6b;
+    border: none; 
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#nobutton6{
+    align-self: flex-start;
+    background-color: #ff6b6b;
+    border: none; 
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#nobutton7{
+    align-self: flex-start;
+    background-color: #ff6b6b;
+    border: none; 
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#text{
+    text-align: center;
+    color: #333333;
+}
+@media (max-width: 600px) {
+  #yesbutton,
+  #nobutton1,
+  #nobutton2,
+  #nobutton3,
+  #nobutton4,
+  #nobutton5,
+  #nobutton6,
+  #nobutton7 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  img {
+    width: 80%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+}
+
+.yes{
+    margin-top: 20px;
+    text-align: center;
+}
