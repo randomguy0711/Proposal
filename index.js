@@ -29,7 +29,7 @@ function cryagain3(){
     img.src = "cry4.gif";
     text.textContent = "I can't live without you pleaseeee";
     nobutton4.remove();
-    nobutton5.textContent = "No! that's fianl"
+    nobutton5.textContent = "No! that's final"
 }
 function cryagain4(){
     img.src = "cry5.webp";
